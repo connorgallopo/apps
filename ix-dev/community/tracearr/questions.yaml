@@ -40,11 +40,11 @@ questions:
             If something goes wrong, you will have to restore from backup.
           schema:
             type: string
-            default: timescale_18_image
+            default: timescale_17_image
             required: true
             enum:
-              - value: timescale_18_image
-                description: Timescale 18
+              - value: timescale_17_image
+                description: Timescale 17
         - variable: db_password
           label: Database Password
           schema:
